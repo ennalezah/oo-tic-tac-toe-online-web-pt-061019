@@ -45,7 +45,7 @@ class TicTacToe
       #   false
       # end
       
-      if @board[index] == "" || @board[index] == "" || @board[index] == nil
+      if @board[index] == " " || @board[index] == "" || @board[index] == nil
         false
       else
         true
