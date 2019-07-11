@@ -40,9 +40,9 @@ class TicTacToe
     # if @board[index] == token
       
       if @board[input_to_index(input)] == "X" || @board[input_to_index(input)] == "O"
-        false
-      else
         true
+      else
+        false
       end
   end
 end
