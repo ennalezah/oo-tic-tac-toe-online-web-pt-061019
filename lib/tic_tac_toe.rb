@@ -40,7 +40,7 @@ class TicTacToe
     index = input_to_index(input)
 
       
-      if @board[index] != token
+      if (@board[index] == "") || (@board[index] == " ") || (@board[index] == nil)
         false
       else
         true
