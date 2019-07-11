@@ -36,10 +36,10 @@ class TicTacToe
     @board[input] = token
   end
   
-  def position_taken?
+  def position_taken?(input)
     # if @board[index] == token
       
-      if @board[index = input.to_i - 1] == token
+      if @board[] == token
         true 
       else 
         false 
