@@ -44,5 +44,11 @@ class TicTacToe
       # else 
       #   false
       # end
+      
+      if @board[index] != " "
+        true
+      else
+        false
+      end
   end
 end
